@@ -1,0 +1,83 @@
+#card-body {
+  background-color: transparent !important;
+  box-shadow: 0 0 0 0 #000 !important;
+}
+#form {
+  /* margin-right: 5% !important; */
+}
+.link {
+  color: var(--main-color) !important;
+}
+#label {
+  position: relative;
+  /* color: var(--main-color); */
+}
+#icon {
+  position: absolute;
+  top: 15%;
+  right: 2%;
+  font-size: 20px;
+  color: var(--place-holder);
+}
+#label input {
+  width: 80% !important;
+  padding: 15px !important;
+  padding-right: 60px !important;
+  border-radius: 30px !important;
+  /* transition: 0.3s ease-in-out !important; */
+  font-size: 18px !important;
+  background-color: var(--dash-nav) !important;
+  border: none !important;
+  margin: 30px 0 !important;
+  box-shadow: 0 0 2px 0px #00000045 !important    ;
+}
+#label input:focus {
+  /* outline-color: orangered; */
+  outline: none !important;
+  /* transform: scale(1.1) !important; */
+  box-shadow: 0px 0px 20px -9px var(--main-color) !important;
+  color: var(--main-color) !important;
+}
+
+#label input::placeholder {
+  /* margin-left: 50px; */
+  /* padding-left: 50px; */
+  font-size: 20px !important;
+  /* position: absolute !important; */
+  /* right: 18% !important; */
+
+  color: var(--place-holder) !important;
+}
+#add-school-btn {
+  width: 50%;
+  padding: 15px;
+  outline: none;
+  border-radius: 35px;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid transparent;
+  margin-top: 15px;
+  background-color: var(--main-color);
+  transition: 0.3s ease-in-out;
+}
+#add-school-btn:hover {
+  background-color: transparent;
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+}
+#label #wrong {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20%;
+  left: 21%;
+  fill: red;
+}
+#label #check {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20%;
+  left: 21%;
+  fill: green;
+}

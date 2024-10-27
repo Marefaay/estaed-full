@@ -1,0 +1,14 @@
+.top-arrow{
+    background-color: var(--main-color);
+    width: 40px;
+    /* border-radius: 8px; */
+    font-size: 28px;
+    position: fixed;
+    left: -50px;
+    bottom: 15px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.show{
+    left:15px
+}

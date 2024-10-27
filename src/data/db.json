@@ -1,0 +1,101 @@
+{
+  "schools": [
+    {
+      "id": "1",
+      "schoolName": "الشموت الثانويه2",
+      "managerName": "ياسر محمد احمد",
+      "studentsNumber": "15000",
+      "cityName": "الشموت",
+      "time": "5",
+      "mail": "mrefaay271@gmail.com",
+      "pass": "cdknjGGG555@@",
+      "isSubscriber": false
+    },
+    {
+      "id": "2",
+      "schoolName": "ننةةببببببببببببببب",
+      "managerName": "بببببببببببببببببببببببب",
+      "studentsNumber": "5",
+      "cityName": "نىتلالاىلاىلاىلاى",
+      "managmentNumber": "5555",
+      "time": "5",
+      "mail": "Mrefayy2271@gmail.com",
+      "pass": "hhhHHH@@555",
+      "isSubscriber": false
+    },
+    {
+      "id": "3",
+      "schoolName": "ننةةببببببببببببببب",
+      "managerName": "بببببببببببببببببببببببب",
+      "studentsNumber": "5",
+      "cityName": "نىتلالاىلاىلاىلاى",
+      "managmentNumber": "5555",
+      "time": "5",
+      "mail": "Mrefayy2271@gmail.com",
+      "pass": "hhhHHH@@555",
+      " isSubscriber": true
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "role": "مستخدم",
+      "firstName": "Mahmoud",
+      "lastName": "Refaay",
+      "mail": "mrefayy271@gmail.com",
+      "joinOn": "1/4/2003"
+    },
+    {
+      "id": "2",
+      "role": "مستخدم",
+      "firstName": "yossef",
+      "lastName": "elkady",
+      "mail": "yossef271@gmail.com",
+      "joinOn": "1/4/2003"
+    },
+    {
+      "id": "3",
+      "role": "مستخدم",
+      "firstName": "mohamed",
+      "lastName": "fathy",
+      "mail": "mohamed271@gmail.com",
+      "joinOn": "1/4/2003"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "role": "مسؤول",
+      "firstName": "Mahmoud",
+      "lastName": "Ahmed",
+      "mail": "mohamed271@gmail.com",
+      "joinOn": "1/4/2003"
+    },
+    {
+      "id": "2",
+      "role": "مسؤول",
+      "firstName": "arabu",
+      "lastName": "Ahmed",
+      "mail": "mohamed271@gmail.com",
+      "joinOn": "1/4/2003"
+    },
+    {
+      "id": "3",
+      "role": "مسؤول",
+      "firstName": "fathy",
+      "lastName": "Ahmed",
+      "mail": "mohamed271@gmail.com",
+      "joinOn": "1/4/2003"
+    }
+  ],
+  "quizes": [
+    {
+      "id": "1",
+      "quizName": "اختبار نافس"
+    },
+    {
+      "id": "3",
+      "quizName": "اختبار نافس للعلوم"
+    }
+  ]
+}

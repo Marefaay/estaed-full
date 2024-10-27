@@ -1,0 +1,27 @@
+.toggler {
+  /* width: 60px; */
+  position: fixed;
+  left: -3%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  top: 20%;
+  cursor: pointer;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  /* padding: 10px; */
+  font-size: 25px;
+  box-shadow: 0 0 3px 1px #00000024;
+  padding-right: 18px;
+  transition: 0.3s ease-in-out;
+  z-index: 1000;
+  background-color: #bbb9b9fa;
+  /* background-color: var(--main-color); */
+}
+.toggle {
+  left: 0%;
+}
+#gear,
+#theme {
+  color: var(--main-color);
+}

@@ -1,0 +1,79 @@
+.user-data-page {
+  background-color: var(--bg-color);
+}
+.input {
+  position: relative;
+}
+.input label {
+  position: absolute;
+  top: 22%;
+  right: 15%;
+  font-size: 28px;
+  color: var(--place-holder);
+}
+.input input {
+  width: 80%;
+  border-radius: 30px;
+  background-color: #0000001d;
+  border: none;
+  padding: 15px;
+  margin: 15px 0;
+  font-size: 18px;
+  padding-right: 80px;
+  transition: 0.3s ease-in-out;
+}
+.input input:focus {
+  /* outline-color: orangered; */
+  outline: none;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 20px -9px var(--main-color);
+  color: var(--main-color);
+}
+
+.input input::placeholder {
+  /* margin-left: 50px; */
+  /* padding-left: 50px; */
+  font-size: 20px;
+  position: absolute;
+  right: 18%;
+
+  color: var(--place-holder);
+}
+#send {
+  width: 50%;
+  padding: 15px;
+  border-radius: 35px;
+  color: #fff;
+  font-size: 25px;
+  border: 2px solid transparent;
+  margin-top: 15px;
+  background-color: var(--main-color);
+  transition: 0.3s ease-in-out;
+}
+#send:hover {
+  background-color: transparent;
+  border: 2px solid var(--main-color);
+  color: var(--main-color);
+}
+.input #wrong {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 35%;
+  left: 12%;
+  fill: red;
+}
+.input #check {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 35%;
+  left: 12%;
+  fill: green;
+}
+.error {
+  width: 85%;
+}
+#total-grade {
+  padding-right: 120px;
+}

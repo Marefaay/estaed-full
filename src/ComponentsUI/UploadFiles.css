@@ -1,0 +1,41 @@
+.upload-div{
+  background-color: var(--bg-color);
+}
+#file-upload {
+  color: var(--main-color);
+  padding: 10px;
+  width: 20%;
+  border-radius: 30px;
+  background-color: transparent;
+  /* border: 1px solid #00000067; */
+  border: 1px solid var(--main-color);
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+}
+#watch {
+    margin-top: 15px;
+  color: #fff;
+  padding: 10px;
+  width: 20%;
+  border-radius: 30px;
+  background-color: var(--main-color);
+  /* border: 1px solid #00000067; */
+  border: 1px solid var(--main-color);
+  font-size: 18px;
+  transition: 0.3s ease-in-out;
+}
+#file-upload:hover,
+#watch:hover {
+  background-color: var(--main-color);
+  color: #fff;
+  /* transform: scale(1.1); */
+}
+#watch {
+  margin: auto;
+}
+#txt {
+  color: var(--place-holder);
+}
+.fa-youtube {
+  margin-left: 10px;
+}

@@ -1,0 +1,26 @@
+.user-data-ms-text h1 {
+  color: var(--main-color);
+  font-size: 100px;
+  margin-bottom: 50px;
+}
+.user-data-ms-text p {
+  font-size: 25px;
+  line-height: 1.8;
+  text-align: justify;
+  color: var(--place-holder);
+}
+.usertdata-ms-image .image {
+  /* transition: 0.5s ease-in-out; */
+  animation-name: moving;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+}
+@keyframes moving {
+  100% {
+    transform: translatey(15px);
+    opacity: 0.8;
+    /* transition: 0.5s ease-in-out; */
+  }
+}

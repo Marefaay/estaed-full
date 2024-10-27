@@ -1,0 +1,49 @@
+/* src/Footer.css */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the app takes at least full height of the viewport */
+  }
+  
+  .footer {
+    background-color: var( --bg-footer-color);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* Push footer to the bottom */
+  }
+  
+  .footer-text {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: var(--text-color);
+  }
+  
+  .footer-nav {
+    margin-top: 10px;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-nav li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-nav a:hover {
+    text-decoration: underline;
+  }
+  

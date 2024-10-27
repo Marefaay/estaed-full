@@ -1,0 +1,73 @@
+#school-badge {
+  background-color: var(--main-color);
+  padding: 10px;
+  width: 45% !important;
+  font-size: 18px;
+  color: #fff;
+  margin: auto;
+  position: absolute;
+  right: 25%;
+  margin-bottom: 50px !important;
+  /* transform: translate(-40%); */
+  /* margin-right: 30%; */
+  /* padding-right: 12%; */
+  border-radius: 35px;
+  text-align: center !important;
+  /* margin: auto !important; */
+}
+.txt {
+  margin-top: 50px !important;
+}
+#dash,
+#all-schools {
+  color: var(--main-color);
+}
+#school-badge p {
+  text-align: center !important;
+}
+#title {
+  font-size: 20px !important;
+  /* color: #fff; */
+}
+#subcribe {
+  /* position: absolute; */
+  top: 10%;
+  right: 20%;
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: 0.3s ease-in-out;
+}
+.green2 {
+  background-color: green !important;
+}
+
+@media (min-width: 332px) {
+  .heading {
+    /* font-size: 25px ; */
+    /* margin-right: 80px !important; */
+  }
+  #subcribe {
+    right: 0;
+    width: 30px;
+    height: 30px;
+    top: 12%;
+  }
+  .bdg{
+    background-color: transparent !important;
+  }
+  #school-badge {
+    width: 80% !important;
+    right: 10%;
+    margin: auto;
+    text-align: center !important;
+  }
+  .txt {
+    flex-wrap: wrap;
+  }
+}
+
